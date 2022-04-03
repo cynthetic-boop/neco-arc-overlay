@@ -3,9 +3,11 @@
 // @namespace   http://tampermonkey.net/
 // @match       https://hot-potato.reddit.com/embed*
 // @grant       none
-// @version     0.1
+// @version     0.2
 // @author      cynthe#3157
 // @description Protecc the necc
+// @icon        https://i1266.photobucket.com/albums/jj534/KAIZA2002/NACIcon.png
+// @homepage    https://github.com/cynthetic-boop/neco-arc-overlay
 // ==/UserScript==
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
